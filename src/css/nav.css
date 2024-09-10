@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    left: 0;
+    color: white; /* Customize text color */
+    padding: 10px; /* Adjust padding for spacing */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+.nav-items{
+    font-family: 'nunito';
+    background: #000319;
+    border: 1px solid rgb(51 53 71);
+    /* padding: 8px 40px; */
+    border-radius: 40px;
+}
+
+.nav-items ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange list items in a row */
+    justify-content: space-around; /* Space the items evenly */
+}
+
+.nav-items ul li {
+    /* font-size: 14px; */
+    padding: 8px 15px; /* Add spacing around the list items */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+.nav-items ul li:hover {
+    color: #CBACF9; /* Change background color on hover */
+}
