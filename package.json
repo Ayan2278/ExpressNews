@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ayan2278.github.io/ExpressNews",
+  "homepage": "https://ayan2278.github.io/ExpressNews",
   "name": "expressnews",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.10"
   }
 }
